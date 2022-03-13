@@ -54,6 +54,35 @@ if (rhyme_vowels === "OG"); {
           "frog", "grog", "hog", "jog", "log" 
           .\n"};
           };
+      else if (rhyme_vowels === "OG_2"); {
+          print= ("bulldog", "bullfrog", "groundhog",
+          "hound dog", "leapfrog", "prologue", 
+          "road hog", "ship's log, "top dog",
+          "watchdog", .\n"); };
+        else if (rhyme_vowels === "OG_3") {
+        print= ("catalog", "chili dog", "dialogue",
+        "monologue", "synalogue", "travelogue",
+        "underdog");
+        }; 
+if (rhyme_vowels === "OGGLE"); [OGGLE_2 OR OGGLE_3]; 
+          print=("OGGLE_2"); {
+          print= ("boggle", "goggle",
+          "joggle","ogle" .\n);
+       
+       else if print=("OGGLE_3"); {
+          print=("boondoggle" .\n); }; 
+          };
+if (rhyme_vowels === "OGGY"); {
+          print=("OGGY"); {
+          print=("");
+          };
+};
+          
+          
+   
+};
+        
+      }
           
           
  };
