@@ -1,24 +1,94 @@
 # rapplication-
 rhyme_generator_c++
 
-variable =(rhyme_vowels) ("O") {
-// mono,dupples,triples
-          print=["ODY_2", "ODY_3", "ODY_4"] { "
+variable =(rhyme_vowels) 
+
+if (rhyme_vowels ==="ODY_2"); {
+// mono,duples,triples
+          print=("ODY_2"); { "
           "Audi", " bawdy", "body", "Dotty",
           "gaudy", " haughty", "knotty", "naughty",
           "potty", " Saudi", "Scottie", "shoddy",
           "snotty", " spotty", "embody", "homebody",
           "karate", "nobody", "somebody" .\n"
        };
-          
-          print=["ODY_2", "ODY_3", "ODY_4"] { "
-          "antibody", "anybody", "busybody", "student body" .\n"
+    else if (rhyme_vowels === "ODY_3");
+          print=("ODY_3") { "
+           "antibody", "anybody", "busybody", 
+           "student body" .\n"
        }; 
-          
-          print=["ODY_2", "ODY_3", "ODY_4"] {"
-          
-          "everybody", "heavenly body" .\n"};
+    else if (rhyme_vowels === "ODY_4");
+          print=("ODY_4"); {"
+           "everybody", "heavenly body" .\n"};
         };
+        
+   
+if (rhyme_vowels ==="OFF"); {
+// mono,duples,triples
+          print=("OFF") { "
+          "coif", "cough", "off",  "scoff"
+          "trough" .\n"};
+        };
+   else if (rhyme_vowels === "OFF_2") { 
+          print=(OFF_2) { "
+          "cutoff", "kickoff", "liftoff",
+          "payoff", "play-off", "rip-off",
+          "show-off", "trade-off", "well-off"
+          .\n"};
+   };
+   else if (rhyme_vowels === "OFF_3"); {  
+          print=(OFF_3) { "
+          "on and off", "stroganoff"
+          .\n"};  
+}
+      
+if (rhyme_vowels === "OFTEN"); {
+          print=(OFTEN) { " 
+          "coffin", "often", "soften"
+          .\n"};
+};
+
+if (rhyme_vowels === "OG"); {
+          print=("OG") {
+          "bog", "clog", "dog", "flog", "fog",
+          "frog", "grog", "hog", "jog", "log" 
+          .\n"};
+          };
+          
+          
+ };
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
 variable =(consonants) {mono,dupples,triples}
 variable =(IPA) {
