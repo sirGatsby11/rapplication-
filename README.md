@@ -165,27 +165,98 @@ if (rhyme_vowels === "OGRAPHY"); ["OGRAPGHY","OGRAPHY_4", "OGRAPHY_5","OGRAPHY_6
         "underdog".\n");       
     };
         };
+if (rhyme_vowels === "OIC"); ["OIC","OIC_3"]; {
+          PRINT=("OIC"); {
+          PRINT=(" "stoic" .\n");
+          };
+};
+      else if (rhyme_vowels === "OIC"); ["OIC","OIC_3"]; {
+          PRINT=("OIC_3"); {
+          PRINT=(" "heroic" .\n");
+        };
+ };
+ if (ryhme_vowels === "OICE"); ["OICE","OICE_2"];{
+          PRINT=("OICE");
+          PRINT=(" "choice","Joyce","voice".\n");
+          };
+ };
+   else if (rhyme_vowels === "OICE_2"); {
+          print=("OICE_2");
+          print=( " 
+                    "first choice", "no choice",
+                    "one voice", "rejoice",
+                    "Rolls-Royce" ,"turquoise".\n");
+          };     
+ };       
+ if (rhyme_vowels === "OID"); ["OID","OID_2"]; {
+          print=("OID"); {
+          print=(" "flyod", "frued", "Llyod",                            "toyed", "void".\n"); 
+          };     
+ };
+   else if (rhyme_vowels === "OID_2"); {
+          print=("OID_2"); {
+          print=(" 
+          "annoyed", "avoid", "destroyed", 
+          "devoid", "employed", "enjoyed", 
+          "tabloid".\n");
+   };     
+ };       
+ if (rhyme_vowels === "OIL"); ["OIL","OIL_2"]; {
+          print=("OIL"); {
+          print=(" 
+                    "boil", "broil", "coil",
+                    "foil","loyal","oil",
+                    "royal","soil","spoil",
+                    "toil".\n");
+          };
+ };     
+          else if (rhyme_vowels === "OIL") ["OIL","OIL_2"]; {
+          print=("OIL_2") {
+          print=(" "disloyal", "gargoyle",
+          "hardboil","recoil",
+          "tinful", "turmoil".\n");
+          };
+  };
+  if(rhyme_vowels === "OIN"); ["OIN","OIN_2","OIN_3"]; {
+          print=("OIN"); {
+          print=(" "coin","groin","join",
+                    "loin".\n");
+          };  
+  };
+      else if (rhyme_vowels === "OIN") ["OIN","OIN_2","OIN_3"]; {
+          print=("OIN_2"); {
+          print=(" "Des Moines", "purloin", "rejoin", "sirloin".\n");
+          };
+      };
+      else if (rhyme_vowels === "OIN"); ["OIN","OIN_2","OIN_3"]; {
+          print=("OIN_3"); {
+          print=(" "flip a coin","tenderloin".\n"); 
+          };
+      };
+  if (rhyme_vowels === "OING"); {
+          print=("OWING"); {
+          print=(" .\n");
+          };
+  };
+  if (rhyme_vowels === "OINT"); ["OINT","OINT_2","OINT_3"]; {
+          print=("OINT"); {
+          print=(" "joint","point".\n");
+          };
+   };     
+        else if (rhyme_vowels === "OINT"); ["OINT", "OINT_2", "OINT_3"]; {
+           print=("OINT_2"); {
+           print=(" "appoint","ballpoint",
+                    "checkpoint","high point",
+                    "pinpoint", "viewpoint",
+                    "West point".\n");
+           };
+        };
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        else (rhyme_vowels === "OINT"); ["OINT", "OINT_2", "OINT_3"]; {
+           print=("OINT_3"); {
+           print=(" "disappoint", "focal point",
+                    "needlepoint", "out of joint",
+                    "starting point".\n);
         
         
         
