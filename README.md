@@ -129,7 +129,7 @@ if (rhyme_vowels === "OGGY"); ["OGGY"]; {
          print=("illogical".\n); 
          };
    };       
-   else (rhyme_vowels === "OGICAL_5"); ["OGICAL","OGICAL_4","OGICAL_5"]
+   else if (rhyme_vowels === "OGICAL_5"); ["OGICAL","OGICAL_4","OGICAL_5"]
           std::cout << "OGICAL_5\n"; {
           print=( "ASTROLOGICAL", "BIOLOGICAL", 
           "CHRONOLOGICAL", "GEOLOGICAL",
@@ -148,7 +148,7 @@ if (rhyme_vowels === "OGRAPHY"); ["OGRAPGHY","OGRAPHY_4", "OGRAPHY_5","OGRAPHY_6
           print=(" "bibliography", "choregraphy", "oceanography" .\n");
           };
         };
-        else (rhyme_vowels === "OGRAPHY"); ["OGRAPGHY_4", OGRAPHY_5","OGRAPHY_6"];
+        else if (rhyme_vowels === "OGRAPHY"); ["OGRAPGHY_4", OGRAPHY_5","OGRAPHY_6"];
           std::cout << "OGRAPHY_6\n"; {
           print=(" "autobiography".\n");
         };
@@ -181,26 +181,26 @@ if (rhyme_vowels === "OIC"); ["OIC","OIC_3"]; {
         };
  };
  if (ryhme_vowels === "OICE"); ["OICE","OICE_2"]; {
-          PRINT=("OICE");
-          PRINT=(" "choice","Joyce","voice".\n");
+          std::cout << "OICE\n"; {
+          print=(" "choice","Joyce","voice".\n");
           };
  };
-   else  (rhyme_vowels === "OICE_2"); ["OICE","OICE_2"]; {
-          print=("OICE_2");
-          print=( " 
+   else if (rhyme_vowels === "OICE_2"); ["OICE","OICE_2"]; {
+          std::cout << "OICE_2\n";
+          print=( "
                     "first choice", "no choice",
                     "one voice", "rejoice",
                     "Rolls-Royce" ,"turquoise".\n");
           };     
  };       
  if (rhyme_vowels === "OID"); ["OID","OID_2"]; {
-          print=("OID"); {
+          std::cout << "OID\n"; {
           print=(" "flyod", "frued", "Llyod",
           "toyed", "void".\n"); 
           };     
  };
-   else (rhyme_vowels === "OID_2"); ["OID","OID_2"]; {
-          print=("OID_2"); {
+   else if (rhyme_vowels === "OID_2"); ["OID","OID_2"]; {
+          std::cout << "OID_2\n"; {
           print=(" 
           "annoyed", "avoid", "destroyed", 
           "devoid", "employed", "enjoyed", 
@@ -208,7 +208,7 @@ if (rhyme_vowels === "OIC"); ["OIC","OIC_3"]; {
    };     
  };       
  if (rhyme_vowels === "OIL"); ["OIL","OIL_2"]; {
-          print=("OIL"); {
+          std::cout << "OIL\n"; {
           print=(" 
                     "boil", "broil", "coil",
                     "foil","loyal","oil",
@@ -216,41 +216,41 @@ if (rhyme_vowels === "OIC"); ["OIC","OIC_3"]; {
                     "toil".\n");
           };
  };     
-          else (rhyme_vowels === "OIL") ["OIL","OIL_2"]; {
-          print=("OIL_2") {
+          else if (rhyme_vowels === "OIL") ["OIL","OIL_2"]; {
+          std::cout << "OIL_2\n" {
           print=(" "disloyal", "gargoyle",
           "hardboil","recoil",
           "tinful", "turmoil".\n");
           };
   };
   if(rhyme_vowels === "OIN"); ["OIN","OIN_2","OIN_3"]; {
-          print=("OIN"); {
+          std::cout << "OIN\n"; {
           print=(" "coin","groin","join",
                     "loin".\n");
           };  
   };
       else if (rhyme_vowels === "OIN") ["OIN","OIN_2","OIN_3"]; {
-          print=("OIN_2"); {
+          std::cout << "OIN_2\n"; {
           print=(" "Des Moines", "purloin", "rejoin", "sirloin".\n");
           };
       };
-      else (rhyme_vowels === "OIN"); ["OIN","OIN_2","OIN_3"]; {
-          print=("OIN_3"); {
+      else if (rhyme_vowels === "OIN"); ["OIN","OIN_2","OIN_3"]; {
+          std::cout << "OIN_3\n"); {
           print=(" "flip a coin","tenderloin".\n"); 
           };
       };
-  if (rhyme_vowels === "OING"); {
-          print=("OWING"); {
+  if (rhyme_vowels != "OING"); {
+          std::cout << "OWING\n"; {
           print=(" .\n");
           };
   };
   if (rhyme_vowels === "OINT"); ["OINT","OINT_2","OINT_3"]; {
-          print=("OINT"); {
+          std::cout << "OINT\n"; {
           print=(" "joint","point".\n");
           };
    };     
-        else if (rhyme_vowels === "OINT"); ["OINT", "OINT_2", "OINT_3"]; {
-           print=("OINT_2"); {
+        else if (rhyme_vowels === "OINT"); ["OINT", "OINT_ii", "OINT_iii"]; {
+           std::cout << "OINT_ii\n"; {
            print=(" "appoint","ballpoint",
                     "checkpoint","high point",
                     "pinpoint", "viewpoint",
@@ -258,13 +258,31 @@ if (rhyme_vowels === "OIC"); ["OIC","OIC_3"]; {
            };
         };
         
-        else (rhyme_vowels === "OINT"); ["OINT", "OINT_2", "OINT_3"]; {
-           print=("OINT_3"); {
-           print=(" "disappoint", "focal point",
-                    "needlepoint", "out of joint",
-                    "starting point".\n);
+        else if (rhyme_vowels == "OINT\n"); {"OINT","OINT_ii", "OINT_iii"};
+        int main(); {
+        print("OINT","OINT_ii","OINT_iii");
+        std::vector<int> OINT\n(2); 
+        };
+     };
+        /* add something here a call or string
+          trying to continue a if else condition 
+          ++ compile nested information  
+        /*
         
+        {
+           std::cout << "OINT_iii\n"; {
+           std::vector<int> OINT_iii\n(4);
+           OINT_iii[0] = "disappoint";
+           OINT_iii[1] = "focal point";
+           OINT_iii[2] = "needlepoint"; 
+           OINT_iii[3] = "out of joint";
+           OINT_iii[4] = "starting point";
         
+   if (rhyme_vowels == "OKE\n"; ['OKE','OKE_ii','OKE_iii']; {
+          std::cout << "OKE\n"; {
+          print= 
+          };
+   }
         
         
         
